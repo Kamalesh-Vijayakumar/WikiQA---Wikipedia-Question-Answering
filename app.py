@@ -30,7 +30,7 @@ collection = db['text_vectors']
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Configure Gemini API
-os.environ["GEMINI_API_KEY"] = "AIzaSyAML06FF8Z8qlAfh3Zwtb58WnSkW_PhGlw"
+os.environ["GEMINI_API_KEY"] = "enter your api key"
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 generation_config = {
